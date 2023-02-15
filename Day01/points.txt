@@ -1,0 +1,276 @@
+Python 3.11.x
+
+python 3.9.7
+------------
+
+www.python.org 		- opensource tech 
+
+
+pycharm - community edition - opensource
+
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+------------------------------------------------------------
+
+1. pycharm
+
+2. VS code - community edition
+
+3. sublime text
+
+4. eclipse
+
+5. jupyter notebook
+
+6. notepad++
+
+------------------------------------------
+
+flavours of Python
+------------------
+1. CPython			-	currently using
+
+2. Jython			-	python code to Java
+
+3. Iron Python	-	dotnet library 
+
+
+version comparison
+-------------------
+2.x and 3.x
+-----------
+1. syntax changes
+
+2.x => print "hello"
+
+3.x => print("hello")
+
+
+2. libraries that were unnecessary were deprecated
+
+
+--------------------------------------------------
+Python
+-------
+1. SDK  - libraries used to execute python
+
+2. Shell - Interactive enviroment
+
+3. IDLE - Integrated Development Environment
+
+
+
+scripting tool										Program(C, C++, dotnet)
+--------------										-----------------------
+
+1. interpreted										1. compiled
+
+2. data is weakly coupled						2. data is tightly coupled
+
+implicit decleration								explicit decleration
+--------------------								---------------------
+
+i = 10													int i
+
+i = 'hello'											i = 10
+
+i = True												i = 30
+
+
+Operators Overloaded
+--------------------
++ 	=> addition and concatenation
+
+* => multiplication and printing a string n times
+
+
+2.x
+---
+Numbers
+	1. integers
+	2. long				-		230911234767982450981212336456L
+	3. float
+	4. complex
+
+
+Module   => imp
+
+function => reload
+
+
+from imp import reload
+
+
+Coding Rules of Python
+-----------------------
+1. #! - shebang		-	used to specify the path of python executable
+
+
+2. Indentation
+
+def fun():
+
+	print("hello world")
+	print("function code")
+
+	for i in range(1, 11):
+		print("for loop code")
+		
+		if i % 2 == 0:
+			print("if condition code")
+
+			print(i)
+
+
+print("__main__ module")
+
+
+comments
+--------
+# is used for comments in python  - single line comment
+
+
+Strings
+-------
+
+strings are enclosed in  " " or ' '			- single line string
+
+
+multiple line string """   """  or  '''    '''
+
+
+"hello world"
+
+
+"""
+
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+
+"""
+
+docstring = are written on the top of the functions which is to describe about the function 
+
+
+
+def fun(x, y):
+
+	"""
+	funtion fun takes two arguments x and y
+
+	x and y should be integers
+	
+
+	"""
+	
+	return x + y
+
+
+help(fun)
+
+
+-------------------------------------------------------
+
+primitive data types in python
+-------------------------------
+
+1. Numbers
+	
+	a. integers
+	b. float
+	c. complex numbers
+
+
+2. Strings
+
+3. Boolean
+
+
+
+Numbers
+-------
+
+0b1100100
+  65  2   
+
+2 ** 6 + 2 ** 5 + 2 ** 2
+
+64 + 32 + 4 => 100
+
+
+-------------------------
+bitwise
+
+or
+---
+5 = 101
+3 = 011
+    ---
+	 111		= 1 + 2 + 4	 => 7
+
+and
+---
+5 = 101
+3 = 011
+    ---
+    001   => 1
+
+xor
+---
+5 = 101
+3 = 011
+	 ----
+    110			=> 4 + 2
+
+
+<<
+--
+5 = 101	 => 1010  => 2 + 8
+
+8 = 1000 => 10000 => 16
+ 
+5 = 101 => 10100	=> 4 + 16
+
+
+>>
+---
+16 = 10000 => 1000
+
+
+Loops and control structures
+----------------------------
+
+1. for loop
+2. while
+
+
+CS
+==
+if condition
+
+print
+-----
+print(data, sep="", end="\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

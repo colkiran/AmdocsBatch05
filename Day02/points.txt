@@ -1,0 +1,130 @@
+Solve these problems
+--------------------
+write a code to print the pattern
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+write a code to display prime numbers between 150 and 50 also print the count of it.
+
+
+Strings
+-------
+"this is a single line string"
+
+'this is a single line string'
+
+
+"""	this 
+	 	is 
+		 a
+		 multiline
+				string """
+
+
+
+strings are immutable
+---------------------
+will not have a setter method in its class
+
+
+
+
+
+
+OOPs
+----
+
+class Player:
+
+	def __init__(self, name):
+		self.name = name
+
+	
+	# getter method
+
+	def player_details(self):
+		print(self.name)
+	
+	
+	# setter method	
+
+	def Plyr_name(self, name):
+		self.name = name
+
+
+ply1 = Player("Sachin")
+
+ply1.player_details()
+
+
+
+ply1.name = "Rahul Dravid"
+
+ply1.player_details()
+
+
+
+===========================================
+
+strings are stored like a list (array)
+
+st1[0] => 'h'
+
+
+============================================
+
+Data Structures
+---------------
+1. list	-	similar to arrays
+
+2. dictionary = hash (associative array)
+
+3. tuple - immutable list
+
+4. set - unique colletion of data
+
+
+
+List
+----
+lists are similar arrays
+
+
+arrays
+------
+1. collection of homogenous data
+2. contigious memory location
+
+
+List
+----
+1. is a collection of hetrogenous data
+2. memory allocation is not contigious
+3. ordered collection
+4. it is subsriptable (idexed)
+5. they are mutable
+6. they are enclosed in [ ]
+
+
+functions to manipulate
+-----------------------
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+
+
+
+
+
+
+
+
